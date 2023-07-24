@@ -1,7 +1,7 @@
-import ContactForm from 'components/ContactForm/ContactForm';
-import ContactList from 'components/ContactList/ContactList';
-import { Notification } from 'components/Notification/Notification';
-import Filter from 'components/Filter/Filter';
+import ContactForm from './components/ContactForm/ContactForm';
+import ContactList from './components/ContactList/ContactList';
+import { Notification } from './components/Notification/Notification';
+import Filter from './components/Filter/Filter';
 import styles from './App.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectContacts } from '../../redux/selectors';
